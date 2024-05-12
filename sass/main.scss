@@ -1,10 +1,27 @@
 $main-color: lavender;
-$secondary-color: #203040;
+$secondary-color: #000000;
+$main-text-color: yellow;
 
 nav {
     color: $main-color;
 }
 
+a {
+    color: $main-text-color;
+    text-decoration: none;
+}
+
 body {
+    color: $main-text-color;
     background-color: $secondary-color;
+}
+
+.yellow-flowers {
+    display: flex;
+    gap: 15px;
+}
+.yellow-flowers a {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
 }
