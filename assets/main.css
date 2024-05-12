@@ -2,6 +2,25 @@ nav {
   color: lavender;
 }
 
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
 body {
-  background-color: #203040;
+  color: yellow;
+  background-color: #000000;
+}
+
+.yellow-flowers {
+  display: flex;
+  gap: 15px;
+}
+
+.yellow-flowers img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
